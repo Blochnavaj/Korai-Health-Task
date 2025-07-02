@@ -1,4 +1,4 @@
- const API_URL = 'http://localhost:5000/api/v1/upload';
+ const API_URL = 'https://korai-health-task-backend.onrender.com/api/v1/upload';
 
 export const uploadReport = async (file) => {
   const formData = new FormData();

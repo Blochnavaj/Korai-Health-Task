@@ -1,6 +1,6 @@
  import React, { useState, useEffect } from 'react';
-import ReportTable from '../components/ReportTable';
-import TrendChart from '../components/TrendChart';
+import ReportTable from '../Components/ReportTable';
+import TrendChart from '../Components/TrendChart';
 
 const DashboardPage = () => {
   const [reportData, setReportData] = useState([]);
